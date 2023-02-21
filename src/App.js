@@ -49,6 +49,18 @@ function App() {
     setUser({name: '',email: '', twitter: '', linkedin: '', github: ''});
   }
 
+  const [qrcode, setQrcode] = useState();
+
+  const fetchQR = async () =>{
+   const res = await fetch("http://localhost:5000/qrcode");
+   const data = await res.text();
+   setQrcode(data); 
+   };
+
+ React.useEffect(() => {
+   fetchQR();
+ }, []);
+
 
   return (
     <div className="App">
@@ -79,6 +91,7 @@ function App() {
 
           <button onClick={PostData}>Generate QR</button>
         </form>
+        <div dangerouslySetInnerHTML={{__html: qrcode}}></div>
         </div>
       </header>
     </div>
