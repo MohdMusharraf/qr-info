@@ -52,7 +52,7 @@ function App() {
   const [qrcode, setQrcode] = useState();
 
   const fetchQR = async () =>{
-   const res = await fetch("http://localhost:5000/qrcode");
+   const res = await fetch("https://upload.wikimedia.org/wikipedia/commons/b/b0/NewTux.svg");
    const data = await res.text();
    setQrcode(data); 
    };
