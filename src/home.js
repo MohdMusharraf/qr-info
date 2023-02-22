@@ -1,6 +1,6 @@
 import React from "react";
 
-function home(){
+function Home(){
     return(<h1> Ui by Dhruv Gupta</h1>);
 }
 
