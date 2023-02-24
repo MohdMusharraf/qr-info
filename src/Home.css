@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Black-f';
+    src: url('./fonts/fontfont_ff.mark.pro.black-webfont.woff2') format('woff2'),
+        url('./fonts/fontfont_ff.mark.pro.black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'med-f';
+    src: url('./fonts/fontfont_ff.mark.pro.medium-webfont.woff2') format('woff2'),
+            url('./fonts/fontfont_ff.mark.pro.medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'bold-f';
+    src: url('./fonts/fontfont_ff.mark.pro.bold-webfont.woff2') format('woff2'),
+            url('./fonts/fontfont_ff.mark.pro.bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'heavy-f';
+    src: url('./fonts/fontfont_ff.mark.pro.heavy-webfont.woff2') format('woff2'),
+            url('./fonts/fontfont_ff.mark.pro.heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mark_probold';
+    src: url('./fonts/mark_pro_bold-webfont.woff2') format('woff2'),
+            url('./fonts/mark_pro_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'reg-f';
+    src: url('./fonts/fontfont_ff.mark.pro-webfont.woff2') format('woff2'),
+         url('./fonts/fontfont_ff.mark.pro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+  
+.Home {
+    height: 100vh;
+    background-image: url("./images/bg-image.png");
+    background-size: cover;
+}
+
+.Home-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}

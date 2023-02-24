@@ -1,0 +1,105 @@
+.main-main-div{
+    display: flex;
+    margin: 0;
+    /* justify-content: center; */
+}
+
+.line-div {
+    height: 31em;
+    border-radius: 100px;
+    position: relative;
+    left: 4.8em;
+    top: 5em;
+    width: 0.2em;
+    background: linear-gradient(180deg, #F64F5A 0%, #C76FE4 51.35%, #14C1E9 100%);;
+}
+
+.main-content {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin:  5em 0 0 7em;
+    gap: 2em;
+}
+
+.spline {
+    transform: scale(0.85);
+}
+
+.main-content > h1 {
+    margin: 0;
+    font-family: "heavy-f";
+    font-size: 2.7rem;
+    font-weight: 800;
+    width: 800px;
+}
+
+.main-content > p {
+    margin: 0;
+    font-family: "reg-f";
+    font-size: 22px;
+    font-weight: 400;
+    width: 500px;
+}
+
+.main-btn {
+    width: 322px;;
+    align-items: center;
+    background-image: linear-gradient(90deg, #FC5C7D 0%, #6A82FB 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 4px 4px 10px -2px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "bold-f";
+    font-weight: 550;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+}
+
+.main-btn:focus {
+    box-shadow: radial-gradient(60.78% 130.17% at 70% -11.21%, #414345 0%, #232526 100%)
+  }
+  
+.main-btn:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(45, 35, 66, .4) 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.main-btn:active {
+    box-shadow: rgba(45, 35, 66, .4) 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.main-icon {
+    height: 2.5em;
+}
+
+.icons-div {
+    display: flex;
+    gap: 1.2em;
+    padding-top: 1.2em;
+}
+
+.qr-span {
+    background: linear-gradient(90deg, #F5505D 0%, #C96DDD 48.75%, #1DBDE9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
